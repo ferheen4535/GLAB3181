@@ -8,6 +8,7 @@ const server = http.createServer((req, res) => {
     res.setHeader('Content-Type', 'text/html');
     res.write('<h1 style="color: red">Hello World!</h1>');
     res.write('<p>I wonder what else we can send...</p>');
+    res.write('<h4 style="color: blue">LETS GO!!!</h4>');
     res.end();
   });
 
